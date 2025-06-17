@@ -1,20 +1,21 @@
 import sys
 from robust_division_calculator import safe_divide
 
+import sys
+from robust_division_calculator import safe_divide
+
 
 def main():
     if len(sys.argv) != 3:
         print("Usage: python main.py <numerator> <denominator>")
         sys.exit(1)
 
-    numerator = float(
-        sys.argv[1]
-    )  # Convert to float (or int) since command line args are strings
-    denominator = float(sys.argv[2])  # Convert to float (or int)
+    numerator = sys.argv[1]
+    denominator = sys.argv[2]
 
     result = safe_divide(numerator, denominator)
     print(result)
 
 
-if __name__ == "__main__":  # Fixed spacing around == and __name__
+if __name__ == "__main__":
     main()
