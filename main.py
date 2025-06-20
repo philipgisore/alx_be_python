@@ -19,5 +19,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-from library_management import Book, Library

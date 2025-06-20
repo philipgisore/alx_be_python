@@ -14,4 +14,4 @@ def main():
     del my_book
 
 if __name__ == "__main__":
-    print ("Main ile is running")
+    main()
