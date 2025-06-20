@@ -1,4 +1,4 @@
-from polymorphism_demo import Shape, Rectangle, Circle
+from oop.polymorphism_demo import Shape, Rectangle, Circle
 import math
 
 def main():
