@@ -1,4 +1,4 @@
-from library_management import Book, Library  # ✅ This import is required
+from library_project.library_management import Book, Library  # ✅ This import is required
 
 
 def main():

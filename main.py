@@ -1,8 +1,8 @@
 import sys
-from robust_division_calculator import safe_divide
+from programming_paradigm.robust_division_calculator import safe_divide
 
 import sys
-from robust_division_calculator import safe_divide
+from programming_paradigm.robust_division_calculator import safe_divide
 
 
 def main():
