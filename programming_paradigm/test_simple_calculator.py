@@ -1,5 +1,8 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import unittest
-from programming_paradigm.unit_tests.simple_calculator import SimpleCalculator
+from unit_tests.simple_calculator import SimpleCalculator
 
 class TestSimpleCalculator(unittest.TestCase):
     """Test cases for SimpleCalculator class"""
